@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    padding: 2em 1em;
+    background-color: hsl(30, 38%, 92%);
+}
+@media (min-width: 1024px){
+    main{
+        display: flex;
+        max-height: fit-content;
+        max-width: 48vw;
+        margin: auto;
+        margin-top: 5%;
+    }
+    section{
+        width: 70%;
+        height: 100%;
+    }
+    .heading1{
+        padding-top: 10px;
+    }
+    .mobile{
+        display: none;
+    }
+    section .desktop{
+        display: block;
+        width: 100%;
+        height: 490px;
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 10px;
+    }
+    .attribution { 
+        font-size: 11px; 
+        text-align: center; 
+        margin-left: 50%; 
+    }
+    .heading{
+        font-size: 50px;
+        line-height: 48px;
+        font-weight: 700;
+    }
+
+}
+section img{
+    width: 100%;
+    height: 250px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.desktop{
+    display: none;
+}
+main{
+    background-color: hsl(0, 0%, 100%);
+}
+.writeUp{
+    padding: 15px 20px;
+}
+header h2{
+    font-size: 36px;
+    margin-top: 10px;
+    line-height: 32px;
+}
+article p{
+    width: 99%;
+    margin: 20px 0px;
+    font-size: 18px;
+    font-weight: lighter;
+    line-height: 25px;
+}
+div{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.bold{
+    color: hsl(158, 36%, 37%);
+    font-size: 35px;
+    font-weight: 700;
+}
+.strikeThrough{
+    text-decoration: line-through;
+}
+button{
+    background-color: hsl(158, 36%, 37%);
+    color: white;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    padding: 10px 90px;
+    border: none;
+    border-radius: 5px;
+    margin: 20px 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+button a{
+    text-decoration: none;
+    color: white;
+}
+button:hover{
+    background-color:hsl(158, 47%, 19%);
+}
+button img{
+    width: 20px;
+    height: 25px;
+}
